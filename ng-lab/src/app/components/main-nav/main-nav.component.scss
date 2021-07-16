@@ -1,0 +1,20 @@
+///
+/// Main Nav
+
+// includes
+@import '../../../scss/variables';
+@import '../../../scss/mixins';
+
+.mainNav{
+  &-brand{    
+    color: $blue;
+    @include font-size(18px, 1, 900, 1px);
+  }
+  &-link{
+    color: $red;
+    &.active{
+      color: $blue
+    }
+  }
+}
+

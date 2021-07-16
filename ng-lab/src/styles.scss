@@ -4,6 +4,9 @@
 // Include any default variable overrides here
 @import '/src/scss/bootstrap-overrides';
 
+// custom variables
+@import '/src/scss/variables';
+
 // Include remainder of required Bootstrap stylesheets
 @import '/node_modules/bootstrap/scss/variables';
 @import '/node_modules/bootstrap/scss/mixins';
