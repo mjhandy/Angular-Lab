@@ -8,6 +8,7 @@ import { FooterComponent } from './components/footer/footer.component';
 import { HeaderComponent } from './components/header/header.component';
 import { HomePageComponent } from './components/home-page/home-page.component';
 import { TypographyComponent } from './components/typography/typography.component';
+import { BasicAccordionComponent } from './components/basic-accordion/basic-accordion.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +17,8 @@ import { TypographyComponent } from './components/typography/typography.componen
     FooterComponent,
     HeaderComponent,
     HomePageComponent,
-    TypographyComponent
+    TypographyComponent,
+    BasicAccordionComponent
   ],
   imports: [
     BrowserModule,
