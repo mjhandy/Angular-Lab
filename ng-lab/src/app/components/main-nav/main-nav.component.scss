@@ -11,9 +11,10 @@
     @include font-size(18px, 1, 900, 1px);
   }
   &-link{
-    color: $red;
+    color: $blue;
+    @include font-size(16px, 1, 900, 1px);
     &.active{
-      color: $blue
+      color: $red;
     }
   }
 }
