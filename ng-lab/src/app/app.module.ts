@@ -12,6 +12,7 @@ import { BasicAccordionComponent } from './components/basic-accordion/basic-acco
 import { SliderComponent } from './components/slider/slider.component';
 import { ModalComponent } from './components/modal/modal.component';
 import { ProgressBarComponent } from './components/progress-bar/progress-bar.component';
+import { TablesComponent } from './components/tables/tables.component';
 
 @NgModule({
   declarations: [
@@ -24,7 +25,8 @@ import { ProgressBarComponent } from './components/progress-bar/progress-bar.com
     BasicAccordionComponent,
     SliderComponent,
     ModalComponent,
-    ProgressBarComponent
+    ProgressBarComponent,
+    TablesComponent
   ],
   imports: [
     BrowserModule,

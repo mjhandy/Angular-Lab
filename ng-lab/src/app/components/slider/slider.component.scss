@@ -10,3 +10,11 @@
 @import '../../../../node_modules/bootstrap/scss/mixins';
 
 @import '../../../../node_modules/bootstrap/scss/carousel.scss';
+
+.carousel{
+  &-inner{
+    img{
+      width: 100%;
+    }
+  }
+}

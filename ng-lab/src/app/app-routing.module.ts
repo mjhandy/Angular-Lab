@@ -7,6 +7,7 @@ import { BasicAccordionComponent} from './components/basic-accordion/basic-accor
 import { SliderComponent } from './components/slider/slider.component';
 import { ModalComponent } from './components/modal/modal.component';
 import { ProgressBarComponent } from './components/progress-bar/progress-bar.component';
+import { TablesComponent } from './components/tables/tables.component';
 
 const routes: Routes = [
   { path: '', component: HomePageComponent },
@@ -14,7 +15,8 @@ const routes: Routes = [
   { path: 'basic-accordion', component: BasicAccordionComponent},
   { path: 'slider', component: SliderComponent},
   { path: 'modal', component: ModalComponent},
-  { path: 'prograss-bar', component: ProgressBarComponent}
+  { path: 'prograss-bar', component: ProgressBarComponent},
+  { path: 'tables', component: TablesComponent}
 
 ];
 
