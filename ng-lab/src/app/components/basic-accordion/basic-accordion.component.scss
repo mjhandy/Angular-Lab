@@ -1,0 +1,25 @@
+.accordion{
+  &-button{
+    border: none;
+    width: 100%;    
+    display: flex;
+    flex-flow: row nowrap;
+    &[aria-expanded="false"]{
+      svg{
+        transform: rotate(-180deg);
+      }
+    }
+    &[aria-expanded="true"]{
+      svg{
+        
+      }
+    }
+    &--copy{
+      flex-grow: 1;
+      text-align: left;
+    }
+  }
+  &-body{
+    padding: 10px;
+  }
+}

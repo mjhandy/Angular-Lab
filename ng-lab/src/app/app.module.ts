@@ -9,6 +9,7 @@ import { HeaderComponent } from './components/header/header.component';
 import { HomePageComponent } from './components/home-page/home-page.component';
 import { TypographyComponent } from './components/typography/typography.component';
 import { BasicAccordionComponent } from './components/basic-accordion/basic-accordion.component';
+import { SliderComponent } from './components/slider/slider.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +19,8 @@ import { BasicAccordionComponent } from './components/basic-accordion/basic-acco
     HeaderComponent,
     HomePageComponent,
     TypographyComponent,
-    BasicAccordionComponent
+    BasicAccordionComponent,
+    SliderComponent
   ],
   imports: [
     BrowserModule,

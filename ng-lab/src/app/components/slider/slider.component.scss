@@ -1,0 +1,14 @@
+/// 
+/// Bootstrap 5 Slider 
+/// @author Mark Handy 
+/// 
+
+// required inlcudes
+// Include any default variable overrides here
+// @import '../../../scss/bootstrap-overrides';
+// @import '../../../scss/variables';
+@import "../../../../node_modules/bootstrap/scss/functions";
+@import '../../../../node_modules/bootstrap/scss/variables';
+@import '../../../../node_modules/bootstrap/scss/mixins';
+
+@import '../../../../node_modules/bootstrap/scss/carousel.scss';

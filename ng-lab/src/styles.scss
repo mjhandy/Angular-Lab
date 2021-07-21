@@ -8,6 +8,7 @@
 @import '/src/scss/variables';
 
 // Include remainder of required Bootstrap stylesheets
+@import "/node_modules/bootstrap/scss/functions";
 @import '/node_modules/bootstrap/scss/variables';
 @import '/node_modules/bootstrap/scss/mixins';
 
@@ -24,6 +25,9 @@
 @import '/node_modules/bootstrap/scss/nav';
 @import '/node_modules/bootstrap/scss/navbar';
 @import '/node_modules/bootstrap/scss/transitions';
+
+// Helpers
+@import "/node_modules/bootstrap/scss/helpers";
 
 // Custom mixins
 @import '/src/scss/mixins';
