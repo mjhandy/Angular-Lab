@@ -1,12 +1,11 @@
 /// 
-/// Bootstrap 5 Slider 
-/// @author Mark Handy 
+/// Boostrap Modal 
 /// 
+/// @author Mark Handy
 
-// required inlcudes
-// Include any default variable overrides here
+// includes
 @import "../../../../node_modules/bootstrap/scss/functions";
 @import '../../../../node_modules/bootstrap/scss/variables';
 @import '../../../../node_modules/bootstrap/scss/mixins';
 
-@import '../../../../node_modules/bootstrap/scss/carousel.scss';
+@import "../../../../node_modules/bootstrap/scss/modal";

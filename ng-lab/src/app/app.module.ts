@@ -10,6 +10,7 @@ import { HomePageComponent } from './components/home-page/home-page.component';
 import { TypographyComponent } from './components/typography/typography.component';
 import { BasicAccordionComponent } from './components/basic-accordion/basic-accordion.component';
 import { SliderComponent } from './components/slider/slider.component';
+import { ModalComponent } from './components/modal/modal.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +21,8 @@ import { SliderComponent } from './components/slider/slider.component';
     HomePageComponent,
     TypographyComponent,
     BasicAccordionComponent,
-    SliderComponent
+    SliderComponent,
+    ModalComponent
   ],
   imports: [
     BrowserModule,
