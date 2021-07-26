@@ -14,7 +14,8 @@
 @import "../../../../node_modules/bootstrap/scss/progress";
 
 .progress{
-  // height: 20px;
+  background: linear-gradient(0deg, $silver 0%, lighten($silver, 10%));
+  border: 2px solid lighten($silver, 5%);
   &-bar{    
     background: linear-gradient(0deg, $blue 0%, lighten($blue, 10%));
     &.w{
