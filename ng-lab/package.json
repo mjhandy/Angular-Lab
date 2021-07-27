@@ -3,9 +3,9 @@
   "version": "0.0.0",
   "scripts": {
     "ng": "ng",
-    "start": "ng serve --port 9999",
+    "start": "ng serve --open --port 9999",
     "build": "ng build",
-    "watch": "ng build --watch --configuration development",
+    "watch": "ng build --port 9999 --watch --configuration development",
     "test": "ng test"
   },
   "private": true,

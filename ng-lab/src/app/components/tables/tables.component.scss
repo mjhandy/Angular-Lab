@@ -3,3 +3,11 @@
 /// @author Mark Handy
 /// 
 /// component
+
+// required inlcudes
+// Include any default variable overrides here
+@import "../../../../node_modules/bootstrap/scss/functions";
+@import '../../../../node_modules/bootstrap/scss/variables';
+@import '../../../../node_modules/bootstrap/scss/mixins';
+
+@import '../../../../node_modules/bootstrap/scss/tables.scss';

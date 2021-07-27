@@ -13,6 +13,7 @@ import { SliderComponent } from './components/slider/slider.component';
 import { ModalComponent } from './components/modal/modal.component';
 import { ProgressBarComponent } from './components/progress-bar/progress-bar.component';
 import { TablesComponent } from './components/tables/tables.component';
+import { TabsComponent } from './components/tabs/tabs.component';
 
 @NgModule({
   declarations: [
@@ -26,7 +27,8 @@ import { TablesComponent } from './components/tables/tables.component';
     SliderComponent,
     ModalComponent,
     ProgressBarComponent,
-    TablesComponent
+    TablesComponent,
+    TabsComponent
   ],
   imports: [
     BrowserModule,

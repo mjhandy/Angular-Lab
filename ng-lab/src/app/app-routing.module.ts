@@ -8,6 +8,7 @@ import { SliderComponent } from './components/slider/slider.component';
 import { ModalComponent } from './components/modal/modal.component';
 import { ProgressBarComponent } from './components/progress-bar/progress-bar.component';
 import { TablesComponent } from './components/tables/tables.component';
+import { TabsComponent } from './components/tabs/tabs.component';
 
 const routes: Routes = [
   { path: '', component: HomePageComponent },
@@ -16,7 +17,8 @@ const routes: Routes = [
   { path: 'slider', component: SliderComponent},
   { path: 'modal', component: ModalComponent},
   { path: 'prograss-bar', component: ProgressBarComponent},
-  { path: 'tables', component: TablesComponent}
+  { path: 'tables', component: TablesComponent},
+  { path: 'tabs', component: TabsComponent}
 
 ];
 
