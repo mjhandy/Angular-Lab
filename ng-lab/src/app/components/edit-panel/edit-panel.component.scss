@@ -1,0 +1,39 @@
+/// 
+/// Edit Panel
+/// 
+/// @author Mark Handy
+
+// includes
+@import "../../../../node_modules/bootstrap/scss/functions";
+@import '../../../../node_modules/bootstrap/scss/variables';
+@import '../../../../node_modules/bootstrap/scss/mixins';
+
+@import "../../../../node_modules/bootstrap/scss/card";
+
+.editPanel{
+  position: relative;
+  &-button{
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: none;
+    fill: $red;
+    z-index: 5;
+    width: 32px;
+    height: 32px;
+    border: none;
+    padding: 2px;
+    svg{
+      width: 100%;
+    }
+  }
+  &:hover{    
+    outline: 5px solid red;
+    width: fit-content;
+    background-color: rgba($black, 0.8);
+    display: flex;
+    .btn{
+      display: block;
+    }
+  }
+}

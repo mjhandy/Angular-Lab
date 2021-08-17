@@ -14,6 +14,7 @@ import { ModalComponent } from './components/modal/modal.component';
 import { ProgressBarComponent } from './components/progress-bar/progress-bar.component';
 import { TablesComponent } from './components/tables/tables.component';
 import { TabsComponent } from './components/tabs/tabs.component';
+import { EditPanelComponent } from './components/edit-panel/edit-panel.component';
 
 @NgModule({
   declarations: [
@@ -28,7 +29,8 @@ import { TabsComponent } from './components/tabs/tabs.component';
     ModalComponent,
     ProgressBarComponent,
     TablesComponent,
-    TabsComponent
+    TabsComponent,
+    EditPanelComponent
   ],
   imports: [
     BrowserModule,
