@@ -10,6 +10,7 @@ import { ProgressBarComponent } from './components/progress-bar/progress-bar.com
 import { TablesComponent } from './components/tables/tables.component';
 import { TabsComponent } from './components/tabs/tabs.component';
 import { EditPanelComponent } from './components/edit-panel/edit-panel.component';
+import { FormsComponent } from './components/forms/forms.component';
 
 const routes: Routes = [
   { path: '', component: HomePageComponent },
@@ -20,7 +21,8 @@ const routes: Routes = [
   { path: 'prograss-bar', component: ProgressBarComponent},
   { path: 'tables', component: TablesComponent},
   { path: 'tabs', component: TabsComponent},
-  { path: 'edit-pane', component: EditPanelComponent }
+  { path: 'edit-pane', component: EditPanelComponent },
+  { path: 'forms', component : FormsComponent}
 
 ];
 

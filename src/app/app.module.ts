@@ -15,6 +15,7 @@ import { ProgressBarComponent } from './components/progress-bar/progress-bar.com
 import { TablesComponent } from './components/tables/tables.component';
 import { TabsComponent } from './components/tabs/tabs.component';
 import { EditPanelComponent } from './components/edit-panel/edit-panel.component';
+import { FormsComponent } from './components/forms/forms.component';
 
 @NgModule({
   declarations: [
@@ -30,7 +31,8 @@ import { EditPanelComponent } from './components/edit-panel/edit-panel.component
     ProgressBarComponent,
     TablesComponent,
     TabsComponent,
-    EditPanelComponent
+    EditPanelComponent,
+    FormsComponent
   ],
   imports: [
     BrowserModule,
