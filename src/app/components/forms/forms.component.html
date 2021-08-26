@@ -15,7 +15,7 @@
           <fieldset>
             <legend>Text Fields</legend>
             <div class="form-floating mb-3">
-              <input type="text" class="form-control" id="firstName" placeholder="First Name" required>
+              <input type="text" class="form-control" id="firstName" placeholder="First Name" required >
               <label for="firstName">First Name</label>
             </div>
             <div class="form-floating mb-3">
@@ -27,21 +27,56 @@
               <div class='form-floating flex-grow-1'>
                 <input type="text" class="form-control" id="donationAmount" placeholder="Donation Amount" aria-label="Amount (to the nearest dollar)">
                 <label for="donationAmount">Donation Amount</label>
-              </div>
-              
+              </div>              
             </div>                   
             <div class="form-floating mb-3">
               <input type="email" class="form-control" id="floatingEmail" placeholder="name@example.com" required>
               <label for="floatingEmail">Email address</label>
             </div>
-            <div class="form-floating">
+            <div class="form-floating mb-3">
               <input type="password" class="form-control" id="floatingPassword" placeholder="Password" required>
               <label for="floatingPassword">Password</label>
             </div>
+            <div class="form-floating mb-3">              
+              <textarea class="form-control" id="exampleFormControlTextarea1" rows="10" placeholder="Text Area"></textarea>
+              <label for="exampleFormControlTextarea1">Example textarea</label>
+            </div>
           </fieldset>
           <fieldset>
-            <legend>Radio Buttons</legend>
-
+            <legend>Radio Buttons - Grouped</legend>
+            <div class="form-check">
+              <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+              <label class="form-check-label" for="flexRadioDefault1">
+                Default radio
+              </label>
+            </div>            
+            <div class="form-check">
+              <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2">
+              <label class="form-check-label" for="flexRadioDefault2">
+                Default radio
+              </label>
+            </div>
+            <div class="form-check">
+              <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault3" checked>
+              <label class="form-check-label" for="flexRadioDefault3">
+                Default checked radio
+              </label>
+            </div>
+          </fieldset>
+          <fieldset>
+            <legend>Check Boxes</legend>
+            <div class="form-check">
+              <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+              <label class="form-check-label" for="flexCheckDefault">
+                Default checkbox
+              </label>
+            </div>
+            <div class="form-check">
+              <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" checked>
+              <label class="form-check-label" for="flexCheckChecked">
+                Checked checkbox
+              </label>
+            </div>
           </fieldset>
           <fieldset>
             <legend>Form Buttons</legend>

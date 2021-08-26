@@ -13,3 +13,10 @@
 
 @import '../../../scss/variables';
 @import '../../../scss/mixins';
+
+
+.form-floating{
+  > textarea.form-control{
+    height: initial;
+  }
+}
