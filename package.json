@@ -7,7 +7,8 @@
     "build": "ng build",
     "prod" : "ng build --port 9999 --watch --configuration production",
     "watch": "ng build --port 9999 --watch --configuration development",
-    "test": "ng test"
+    "test": "ng test",
+    "cssPurge" : "purgecss --css dist/ng-lab/*.css --content src/app/components/*.html --output dist/ng-lab/main.css"
   },
   "private": true,
   "dependencies": {
